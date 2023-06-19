@@ -16,22 +16,22 @@ description: Solution to build generative-web3 content service
 
 ## web3 service solution
 
-### Avatar generative talk solution
+### :speaking\_head: Avatar generative talk solution
 
 > Build avatar talk service with chatGPT
 
-### Avatar chat solution
+### :person\_raising\_hand: Avatar chat solution
 
 > Build avatar chatting service with motion capture
 
-### Avatar fashion solution
+### :woman\_vampire: Avatar fashion solution
 
 > Build avatar fashion service
 
-### Generative story solution
+### :page\_with\_curl: Generative story solution
 
 > Build picture book service with chatGPT
 
-### web3 content market solution
+### :shopping\_cart: web3 content market solution
 
 > Build NFT rent market service
