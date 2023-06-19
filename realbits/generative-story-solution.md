@@ -1,0 +1,2 @@
+# 📃 Generative story solution
+
