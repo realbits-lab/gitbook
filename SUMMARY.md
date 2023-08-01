@@ -7,10 +7,13 @@
 * [👨💻 Overview](realbits/overview.md)
 * [📡 Sites](realbits/sites.md)
 
-## PROJECTS
+## SOLUTION
 
-* [📗 Thothy](projects/thothy.md)
-* [🙍♀ AvaMe](projects/avame.md)
-* [🖼 Fictures](projects/fictures.md)
-* [👼 Dulls](projects/dulls.md)
-* [🛒 Market](projects/market.md)
+* [📗 Thothy](solution/thothy.md)
+
+## SERVICE
+
+* [🙍♀ AvaMe](service/avame.md)
+* [🖼 Fictures](service/fictures.md)
+* [👼 Dulls](service/dulls.md)
+* [🛒 Market](service/market.md)
