@@ -84,11 +84,13 @@ A user can extend a chatbot to the outside world by using the API of the service
 
 ## Pricing
 
-| Feature     | Enterprise            | On-premise            |
-| ----------- | --------------------- | --------------------- |
-| Price       | $1,000                | Contact               |
-| Data        | 500M                  | Unlimited             |
-| Prompt      | Unlimited             | Unlimited             |
-| Tool        | Available             | Available             |
-| API         | $1,000 / 10K sessions | $1,000 / 10K sessions |
-| private LLM | Available             | Available             |
+Pricing model has two types. One is for enterprise and subscription fee is $1,000 per month. In case of on-premise, contact us by <mark style="color:blue;">**ai.thothy@gmail.com**</mark>.
+
+| Feature     | Enterprise            | On-premise                  |
+| ----------- | --------------------- | --------------------------- |
+| Price       | $1,000 / month        | Contact (Subscription base) |
+| Data        | 500M                  | Unlimited                   |
+| Prompt      | Unlimited             | Unlimited                   |
+| Tool        | Available             | Available                   |
+| API         | $1,000 / 10K sessions | $1,000 / 10K sessions       |
+| private LLM | Available             | Available                   |
