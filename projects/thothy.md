@@ -1,5 +1,5 @@
 ---
-description: Data-driven SaaS
+description: Data-driven chatbot SaaS
 ---
 
 # 📗 Thothy

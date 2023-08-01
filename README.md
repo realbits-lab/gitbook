@@ -22,7 +22,7 @@ Realbits develops and provides <mark style="color:blue;">**Thothy SaaS**</mark> 
 Thothy is a data-driven chatbot SaaS with RAG and TAG technology.
 {% endhint %}
 
-**The company has built and provides several services that utilize AI generative technology and Web3 functionality.**
+**The company has built and provides several services that utilize AI-generative technology and Web3 functionality.**
 
 With the <mark style="color:orange;">**Fictures**</mark> service, users can draw images using prompts and publish NFTs. Users can chat with an AI avatar through the <mark style="color:orange;">**Avame**</mark> service. With smart contract, all token payment will be distributed to NFT owner and other related parties transparently.
 
