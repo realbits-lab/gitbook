@@ -1,5 +1,5 @@
 ---
-description: Avatar NFT project
+description: Avatar NFT
 ---
 
 # 👼 Dulls
@@ -14,5 +14,3 @@ Dulls is a NFT project with a 3D avatar model. Dulls has an image and a VRM 3D m
   * [https://opensea.io/collection/dulls](https://opensea.io/collection/dulls)
 * **GitHub**
   * [https://github.com/realbits-lab/nft-metadata](https://github.com/realbits-lab/nft-metadata)
-* **Discord**
-  * [#dulls](https://discord.com/channels/1049501409755811940/1054221368884994118)

@@ -10,7 +10,6 @@
 ## PROJECTS
 
 * [🙍♀ AvaMe](projects/avame.md)
-* [🧏♂ AvaChat](projects/avachat.md)
 * [🖼 Fictures](projects/fictures.md)
 * [👼 Dulls](projects/dulls.md)
 * [🛒 Market](projects/market.md)

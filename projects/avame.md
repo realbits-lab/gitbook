@@ -1,14 +1,14 @@
 ---
-description: Talk to avatar of AI model
+description: Talk to AI avatar
 ---
 
 # 🙍♀ AvaMe
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Avatar screen</p></figcaption></figure>
 
 * **Description**
 
-Users can select their avatars and express motion or face with the avatars in avame.xyz service.
+Users can select avatar character and have a dialogue.
 
 * **Sequence Diagram**
 
@@ -36,11 +36,7 @@ M->>M: Transfer rent fee portion
 ```
 
 * **Site**
-  * [https://avame-development.vercel.app](https://avame-development.vercel.app/)
+  * [https://test.avame.xyz](https://test.avame.xyz/)
 * **GitHub**
   * [https://github.com/realbits-lab/avame](https://github.com/realbits-lab/avame)
-* **Dework**
-  * [https://app.dework.xyz/realbits/avame](https://app.dework.xyz/realbits/avame)
-* **Discord**
-  * [#avame](https://discord.com/channels/1049501409755811940/1054219044703707196)
 
