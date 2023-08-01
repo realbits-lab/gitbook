@@ -9,6 +9,7 @@
 
 ## PROJECTS
 
+* [📗 Thothy](projects/thothy.md)
 * [🙍♀ AvaMe](projects/avame.md)
 * [🖼 Fictures](projects/fictures.md)
 * [👼 Dulls](projects/dulls.md)
