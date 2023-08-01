@@ -6,29 +6,29 @@ description: Solution to build generative-web3 content service
 
 ## web3 content solution
 
-### :bearded\_person: [Avatar NFT solution](avatar-nft-solution.md)
+### :bearded\_person: [Avatar NFT solution](broken-reference)
 
 > Build avatar NFT service with VRM model
 
-### :film\_frames: [Generative image NFT solution](generative-image-nft-solution.md)
+### :film\_frames: [Generative image NFT solution](broken-reference)
 
 > Build image NFT service with generative AI
 
 ## web3 service solution
 
-### :speaking\_head: [Avatar generative talk solution](avatar-generative-talk-solution.md)
+### :speaking\_head: [Avatar generative talk solution](broken-reference)
 
 > Build avatar talk service with chatGPT
 
-### :person\_raising\_hand: [Avatar chat solution](avatar-chat-solution.md)
+### :person\_raising\_hand: [Avatar chat solution](broken-reference)
 
 > Build avatar chatting service with motion capture
 
-### :woman\_vampire: [Avatar fashion solution](avatar-fashion-solution.md)
+### :woman\_vampire: [Avatar fashion solution](broken-reference)
 
 > Build avatar fashion service
 
-### :page\_with\_curl: [Generative story solution](generative-story-solution.md)
+### :page\_with\_curl: [Generative story solution](broken-reference)
 
 > Build picture book service with chatGPT
 
