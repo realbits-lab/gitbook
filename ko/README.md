@@ -6,7 +6,7 @@
 
 REALBITS에 오신 것을 환영합니다.
 
-<figure><img src=".gitbook/assets/738-536x354.jpg" alt="" width="134"><figcaption></figcaption></figure>
+![이미지](.gitbook/assets/738-536x354.jpg)
 
 **회사는 AI 생성 기술을 활용한 서비스를 구축하고 제공하고 있습니다.**
 
