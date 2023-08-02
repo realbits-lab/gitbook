@@ -1,4 +1,4 @@
-# Table of contents
+# 목차
 
 * [😎 환영합니다!](README.md)
 
