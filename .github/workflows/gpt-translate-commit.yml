@@ -21,7 +21,7 @@ jobs:
           echo "files=$(git diff --name-only HEAD^ HEAD | grep '^en\/.*\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
       - name: Run GPT Translate
-        # if: steps.changed_files.outputs.files[0] != null
+        if: ${{ steps.changed_files.outputs.files[0] != null }}
         uses: 3ru/gpt-translate@v1.1.2
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
