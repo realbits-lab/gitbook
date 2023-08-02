@@ -6,6 +6,8 @@
 
 Welcome to REALBITS.
 
+<figure><img src=".gitbook/assets/738-536x354.jpg" alt="" width="134"><figcaption></figcaption></figure>
+
 **The company has built and is offering services that utilize AI-generative technology.**
 
 With AI-generative technology, users can create content quickly and easily. Writing a blog or product article, as well as other work with private information, requires considerable time and effort. SOTA AI technology enables these types of tasks to be completed quickly and well.
