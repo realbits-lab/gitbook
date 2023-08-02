@@ -1,31 +1,31 @@
 ---
-description: Service Overview
+description: 서비스 개요
 ---
 
-# 💻 Overview
+# 💻 개요
 
-## AI Service
+## AI 서비스
 
-Our company provides a data-driven chatbot SaaS. You can ask questions and receive answers using personal documents or other public data. You can use the chatbot in confidential mode using personal documents or provide the service through our own chatbot API. If you want to use it on-premises, we can support personal vector storage, embedding, and LLM technology.
+저희 회사는 데이터 기반 챗봇 SaaS를 제공합니다. 개인 문서나 다른 공공 데이터를 사용하여 질문을 하고 답변을 받을 수 있습니다. 개인 문서를 사용하여 비밀 모드로 챗봇을 이용하거나, 저희 자체 챗봇 API를 통해 서비스를 제공할 수 있습니다. 온프레미스에서 사용하고 싶다면 개인 벡터 저장, 임베딩, LLM 기술을 지원해 드릴 수 있습니다.
 
 {% hint style="success" %}
-<mark style="color:orange;">**Data-driven chatbot**</mark> uses <mark style="color:green;">**RAG**</mark> (Retrieval-Augmented Generation) and <mark style="color:green;">**TAG**</mark> (Tool-Augmented Generation) technologies.
+<mark style="color:orange;">**데이터 기반 챗봇**</mark>은 <mark style="color:green;">**RAG**</mark> (검색 보완 생성)과 <mark style="color:green;">**TAG**</mark> (도구 보완 생성) 기술을 사용합니다.
 {% endhint %}
 
-A data-driven chatbot is similar to a QA chatbot that searches for data in documents or databases. Users can write blog posts with product information or customer response emails with customer history data. If you can manage prompts, you can create chatbot characters like foreign language teachers or astrologers.
+데이터 기반 챗봇은 문서나 데이터베이스에서 데이터를 검색하는 QA 챗봇과 유사합니다. 사용자는 제품 정보가 포함된 블로그 글이나 고객 이력 데이터가 포함된 고객 응답 이메일을 작성할 수 있습니다. 프롬프트를 관리할 수 있다면 외국어 교사나 점성술사와 같은 챗봇 캐릭터를 만들 수 있습니다.
 
 ```mermaid
 graph LR
   style U fill:#f96,stroke:#f00,stroke-width:2px
   style L fill:#f96,stroke:#f00,stroke-width:2px
 
-  U["User"] -->|Write|Q(["Question"])
-  Q -->|Search|V[("Vector Storage")]
-  V -->|Result|T("Question with Data")
-  T -->|Question|L["LLM"]
-  L -->|Answer|U
+  U["사용자"] -->|작성|Q(["질문"])
+  Q -->|검색|V[("벡터 저장")]
+  V -->|결과|T("데이터가 포함된 질문")
+  T -->|질문|L["LLM"]
+  L -->|답변|U
 ```
 
-## Web3 Service
+## Web3 서비스
 
-We can provide services through our own chatbot API. We plan to provide various services using Web3 and generative AI technology. All of these are open source. Make your ideas a reality with Realbits.
+저희는 저희 자체 챗봇 API를 통해 서비스를 제공할 수 있습니다. Web3와 생성적 AI 기술을 사용하여 다양한 서비스를 제공할 계획입니다. 이 모든 것들은 오픈 소스입니다. Realbits와 함께 아이디어를 현실로 만들어보세요.
