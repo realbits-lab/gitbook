@@ -2,7 +2,7 @@
 description: Data-driven chatbot SaaS
 ---
 
-# 📗 Thothy
+# 🦷 Thothy
 
 ## Architecture
 

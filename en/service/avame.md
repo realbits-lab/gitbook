@@ -2,7 +2,7 @@
 description: Talk to AI avatar
 ---
 
-# 🙍♀ AvaMe
+# 🏈 AvaMe
 
 <figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Avatar screen</p></figcaption></figure>
 
@@ -39,4 +39,3 @@ M->>M: Transfer rent fee portion
   * [https://test.avame.xyz](https://test.avame.xyz/)
 * **GitHub**
   * [https://github.com/realbits-lab/avame](https://github.com/realbits-lab/avame)
-
