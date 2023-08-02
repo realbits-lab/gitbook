@@ -1,16 +1,10 @@
 ---
-description: Publish image NFT
+description: Image NFT gallery service
 ---
 
 # 🖼 Fictures
 
-<div data-full-width="false">
-
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption><p>Image NFT</p></figcaption></figure>
-
-</div>
-
-* Description
+## Description
 
 User can draw image using prompt with generative AI technology. User can mint NFT with the image.
 
@@ -20,7 +14,13 @@ Whether minting is done or not, if user select to post image, image will be post
 
 When the user wants to see the prompt, user would have to pay a token and see the prompt for a limited time (perhaps one day). When prompt duration ends, prompt fee will be shared with NFT owner, service owner, and market owner by smart contract.
 
-* Service Sequence Diagram
+<div data-full-width="false">
+
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="188"><figcaption><p>Image NFT</p></figcaption></figure>
+
+</div>
+
+## Service Sequence Diagram
 
 ```mermaid
 sequenceDiagram
@@ -43,7 +43,10 @@ M->>S: Transfer rent fee portion
 M->>M: Transfer rent fee portion
 ```
 
-* **Site**
-  * [https://test.fictures.xyz](https://test.fictures.xyz/)
-* **GitHub**
-  * [https://github.com/realbits-lab/prompt-nft](https://github.com/realbits-lab/prompt-nft)
+## **Site**
+
+* [https://test.fictures.xyz](https://test.fictures.xyz/)
+
+## **GitHub**
+
+* [https://github.com/realbits-lab/prompt-nft](https://github.com/realbits-lab/prompt-nft)

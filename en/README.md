@@ -1,8 +1,4 @@
----
-description: Welcome to REALBITS!
----
-
-# 😎 Welcome!
+# 💛 Welcome!
 
 {% hint style="info" %}
 <mark style="color:purple;">**REALBITS**</mark> means _<mark style="color:blue;">**REAL**</mark>lize your idea in <mark style="color:blue;">**BITS**</mark>_.
@@ -31,4 +27,3 @@ Any company or programmers who want to develop services can use Realbits' free s
 {% hint style="warning" %}
 Realbits open source is in [https://github.com/realbits-lab](https://github.com/realbits-lab)
 {% endhint %}
-

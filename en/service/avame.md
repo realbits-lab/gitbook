@@ -4,13 +4,13 @@ description: Talk to AI avatar
 
 # 🏈 AvaMe
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Avatar screen</p></figcaption></figure>
-
-* **Description**
+## **Description**
 
 Users can select avatar character and have a dialogue.
 
-* **Sequence Diagram**
+<figure><img src="../.gitbook/assets/image.png" alt="" width="188"><figcaption><p>Avatar screen</p></figcaption></figure>
+
+## **Sequence Diagram**
 
 ```mermaid
 sequenceDiagram
@@ -35,7 +35,10 @@ M->>M: Transfer rent fee portion
 
 ```
 
-* **Site**
-  * [https://test.avame.xyz](https://test.avame.xyz/)
-* **GitHub**
-  * [https://github.com/realbits-lab/avame](https://github.com/realbits-lab/avame)
+## **Site**
+
+* [https://test.avame.xyz](https://test.avame.xyz/)
+
+## **GitHub**
+
+* [https://github.com/realbits-lab/avame](https://github.com/realbits-lab/avame)
