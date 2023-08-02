@@ -1,8 +1,6 @@
----
-description: 안녕하세요.
----
-
 # 😎 환영합니다!
+
+
 
 {% hint style="info" %}
 <mark style="color:purple;">**REALBITS**</mark>는 _<mark style="color:blue;">**REAL**</mark>한 아이디어를 <mark style="color:blue;">**BITS**</mark>로 실현하는 것을 의미합니다_.
