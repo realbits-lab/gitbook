@@ -4,13 +4,13 @@ description: AI 아바타와 대화하기
 
 # 🏈 AvaMe
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>아바타 화면</p></figcaption></figure>
-
-* **설명**
+## **설명**
 
 사용자는 아바타 캐릭터를 선택하고 대화를 할 수 있습니다.
 
-* **시퀀스 다이어그램**
+<figure><img src="../.gitbook/assets/image.png" alt="" width="188"><figcaption><p>아바타 화면</p></figcaption></figure>
+
+## **시퀀스 다이어그램**
 
 ```mermaid
 sequenceDiagram
@@ -35,7 +35,10 @@ M->>M: 대여 수수료 일부 이전
 
 ```
 
-* **사이트**
-  * [https://test.avame.xyz](https://test.avame.xyz/)
-* **GitHub**
-  * [https://github.com/realbits-lab/avame](https://github.com/realbits-lab/avame)
+## **사이트**
+
+* [https://test.avame.xyz](https://test.avame.xyz/)
+
+## **GitHub**
+
+* [https://github.com/realbits-lab/avame](https://github.com/realbits-lab/avame)
