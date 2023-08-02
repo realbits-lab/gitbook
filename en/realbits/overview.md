@@ -16,11 +16,14 @@ The data-driven chatbot is similar to QA chatbots that acquire data from documen
 
 ```mermaid
 graph LR
-  User -- write --> Query
-  Query -- search --> VS[Vector Store]
-  VS -- result --> TQ[Query with data]
-  TQ -- ask --> LLM
-  LLM -- answer --> User
+  style U fill:#f96,stroke:#f00,stroke-width:2px
+  style L fill:#f96,stroke:#f00,stroke-width:2px
+
+  U["User"] -->|write|Q(["Query"])
+  Q -->|search|V[("Vector Store")]
+  V -->|result|T("Query with data")
+  T -->|ask|L["LLM"]
+  L -->|answer|U
 ```
 
 ## Web3 service
