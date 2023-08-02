@@ -4,7 +4,7 @@
 
 ## REALBITS
 
-* [👨💻 Overview](realbits/overview.md)
+* [💻 Overview](realbits/overview.md)
 * [📡 Sites](realbits/sites.md)
 
 ## SOLUTION
