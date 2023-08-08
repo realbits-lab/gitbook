@@ -4,11 +4,11 @@ description: 서비스 개요
 
 # 🎑 개요
 
-<figure><img src="../.gitbook/assets/1.png" alt="" width="268"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 ## AI 서비스
 
-저희 회사는 데이터 기반 챗봇 SaaS를 제공합니다. 개인 문서나 다른 공개 데이터를 사용하여 질문하고 답변을 받을 수 있습니다. 기밀 모드에서 자체 문서와 함께 챗봇을 사용하거나 자체 챗봇 API로 서비스를 제공할 수 있습니다. 온프레미스에서 사용하려면 개인 벡터 저장소, 임베딩 및 LLM 기술을 지원해 드릴 수 있습니다.
+저희 회사는 데이터 기반 챗봇 SaaS를 제공합니다. 개인 문서나 다른 공공 데이터를 사용하여 질문하고 답변을 받을 수 있습니다. 비밀 모드에서 자체 문서와 함께 챗봇을 사용하거나 자체 챗봇 API로 서비스를 제공할 수 있습니다. 온프레미스에서 사용하려면 개인 벡터 저장소, 임베딩 및 LLM 기술을 지원해 드릴 수 있습니다.
 
 {% hint style="success" %}
 <mark style="color:orange;">**데이터 기반 챗봇**</mark>은 <mark style="color:green;">**RAG**</mark>(검색 보강 생성) 및 <mark style="color:green;">**TAG**</mark>(도구 보강 생성) 기술을 사용합니다.
