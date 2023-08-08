@@ -32,6 +32,7 @@ jobs:
         run: |
           git config --local user.email "dev.realbits@gmail.com"
           git config --local user.name "realbits-lab"
+          git add .
           git commit -m "Add changes" -a
 
   gpt_translate:
