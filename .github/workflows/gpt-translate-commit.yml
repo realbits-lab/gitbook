@@ -24,6 +24,10 @@ jobs:
         if: "${{ steps.changed_files.outputs.files != '' }}"
         run: echo "Has changed files in assets directory"
 
+      - name: Test files
+        if: "${{ steps.changed_files.outputs.files == '' }}"
+        run: echo "No changed files in assets directory"
+
       - name: Copy files
         run: |
           echo "These ${{ steps.changed_files.outputs.files }} was changed"
