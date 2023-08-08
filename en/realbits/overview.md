@@ -4,7 +4,7 @@ description: Service overview
 
 # 🎑 Overview
 
-<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1.png" alt="" width="134"><figcaption></figcaption></figure>
 
 ## AI service
 
