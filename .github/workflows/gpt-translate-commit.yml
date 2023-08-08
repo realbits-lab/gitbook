@@ -23,6 +23,7 @@ jobs:
       - name: Copy files
         run: |
           echo "These ${{ steps.changed_files.outputs.files }} was changed"
+          echo "[0]: ${{ steps.changed_files.outputs.files[0] }}"
           for file in ${{ steps.changed_files.outputs.files }}; do
             if test -f "$file"; then
               echo "$file was changed"
@@ -31,6 +32,7 @@ jobs:
           done
 
       - name: Commit files
+        if: ${{ steps.changed_files.outputs.files[0] != null }}
         run: |
           git config --local user.email "dev.realbits@gmail.com"
           git config --local user.name "realbits-lab"
