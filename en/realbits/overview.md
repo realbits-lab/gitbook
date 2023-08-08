@@ -4,8 +4,6 @@ description: Service overview
 
 # 🎑 Overview
 
-<figure><img src="../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
-
 ## AI service
 
 Our company provides a data-driven chatbot SaaS. Your private documents or other public data can be used to ask and receive answers. You can use a chatbot with your own document in confidential mode, or provide a service with your own chatbot API. If you want to use on-premise, we can support with private vector store, embedding, and LLM technology.
