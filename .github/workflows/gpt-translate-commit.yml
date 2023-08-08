@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: get changed files name
+      - name: Get changed files name
         id: changed_files
         run: |
           echo "files=$(git diff --name-only HEAD^ HEAD | grep '^en\/.*\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT

@@ -1,0 +1,39 @@
+name: Copy assets files
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  copy_assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository with two latest commits
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Get changed png files name in en/.gitbook/assets directory.
+        id: changed_files
+        run: |
+          echo "files=$(git diff --name-only HEAD^ HEAD | grep '^en\/\.gitbook\/assets\/.*\.png$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+
+      - name: Copy files
+        run: |
+          for file in ${{ steps.changed_files.outputs.files }}; do
+            echo "$file was changed"
+            cp $file ko/.gitbook/assets
+          done
+
+      - name: Commit files
+        run: |
+          git config --local user.email "dev.realbits@gmail.com"
+          git config --local user.name "realbits-lab"
+          git commit -m "Add changes" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
