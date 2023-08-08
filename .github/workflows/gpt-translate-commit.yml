@@ -20,6 +20,10 @@ jobs:
         run: |
           echo "files=$(git diff --name-only HEAD^ HEAD | grep '^en\/\.gitbook\/assets\/.*\.png$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
+      - name: Test files
+        if: "${{ steps.changed_files.outputs.files != '' }}"
+        run: echo "Has changed files in assets directory"
+
       - name: Copy files
         run: |
           echo "These ${{ steps.changed_files.outputs.files }} was changed"
@@ -32,7 +36,7 @@ jobs:
           done
 
       - name: Commit files
-        if: ${{ steps.changed_files.outputs.files[0] != null }}
+        if: "${{ steps.changed_files.outputs.files != '' }}"
         run: |
           git config --local user.email "dev.realbits@gmail.com"
           git config --local user.name "realbits-lab"
