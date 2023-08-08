@@ -20,18 +20,8 @@ jobs:
         run: |
           echo "files=$(git diff --name-only HEAD^ HEAD | grep '^en\/\.gitbook\/assets\/.*\.png$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
-      - name: Test files
-        if: "${{ steps.changed_files.outputs.files != '' }}"
-        run: echo "Has changed files in assets directory"
-
-      - name: Test files
-        if: "${{ steps.changed_files.outputs.files == '' }}"
-        run: echo "No changed files in assets directory"
-
       - name: Copy files
         run: |
-          echo "These ${{ steps.changed_files.outputs.files }} was changed"
-          echo "[0]: ${{ steps.changed_files.outputs.files[0] }}"
           for file in ${{ steps.changed_files.outputs.files }}; do
             if test -f "$file"; then
               echo "$file was changed"
@@ -62,7 +52,7 @@ jobs:
           echo "files=$(git diff --name-only HEAD^ HEAD | grep '^en\/.*\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
       - name: Run GPT Translate
-        if: ${{ steps.changed_files.outputs.files[0] != null }}
+        if: "${{ steps.changed_files.outputs.files != '' }}"
         uses: 3ru/gpt-translate@v1.1.2
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
