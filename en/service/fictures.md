@@ -28,7 +28,7 @@ sequenceDiagram
 autonumber
 
 participant U as User
-participant S as promptnft.xyz
+participant S as fictures.xyz
 participant M as Market Contract
 participant O as NFT Owner
 
