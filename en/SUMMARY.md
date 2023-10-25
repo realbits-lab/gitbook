@@ -24,5 +24,6 @@
   * [getRentData](contracts/market/getrentdata.md)
   * [rentNFT](contracts/market/rentnft.md)
   * [rentNFTByToken](contracts/market/rentnftbytoken.md)
-* [NFT](contracts/nft.md)
+* [NFT](contracts/nft/README.md)
+  * [safeMint](contracts/nft/safemint.md)
 * [WAGMI](contracts/wagmi.md)
