@@ -22,3 +22,6 @@
   * [getRegisterData](contracts/market/getregisterdata.md)
   * [registerNFT](contracts/market/registernft.md)
   * [getAllRentData](contracts/market/getallrentdata.md)
+  * [getRentData](contracts/market/getrentdata.md)
+  * [rentNFT](contracts/market/rentnft.md)
+  * [rentNFTByToken](contracts/market/rentnftbytoken.md)
