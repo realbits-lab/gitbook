@@ -1,3 +1,7 @@
+---
+description: Blockchain WEB3 JavaScript (TypeScript) library
+---
+
 # WAGMI
 
 * JavaScript (TypeScript) package library for blockchain
