@@ -17,3 +17,8 @@
 ## CONTRACTS
 
 * [NFT](contracts/nft.md)
+* [MARKET](contracts/market/README.md)
+  * [getAllRegisterData](contracts/market/getallregisterdata.md)
+  * [getRegisterData](contracts/market/getregisterdata.md)
+  * [registerNFT](contracts/market/registernft.md)
+  * [getAllRentData](contracts/market/getallrentdata.md)
