@@ -7,10 +7,6 @@
 * [🎑 Overview](realbits/overview.md)
 * [🍜 Sites](realbits/sites.md)
 
-## SOLUTION
-
-* [🦷 Thothy](solution/thothy.md)
-
 ## SERVICE
 
 * [🏈 AvaMe](service/avame.md)
