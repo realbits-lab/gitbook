@@ -12,6 +12,7 @@
 
 * [⏺ Background](ecosystem/background.md)
 * [🤘 Design](ecosystem/design.md)
+* [🇹🇰 Tokenomics](ecosystem/tokenomics.md)
 
 ## SERVICE
 
