@@ -17,3 +17,5 @@ Collection is a NFT group which registered to rent market smart contract. User c
 Service is a service owner address list. Service owner can receive incentive or fee from rent market smart contract only after registering to rent market contract.
 
 Token is a token smart contract which can be used for service. User can pay or rent NFT with this token. Only registered token can be used.
+
+{% embed url="https://github.com/realbits-lab/rent-market" %}
