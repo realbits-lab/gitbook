@@ -112,3 +112,21 @@ flowchart LR
 		RM1[rentMarket contract]-->|balance rate-default: 10%| MO1[rentMarket owners]
 
 ```
+
+```mermaid
+sequenceDiagram
+
+participant T as Token contract
+participant S as Share contract
+
+actor NO as NFT token owner
+participant MO as Market owner
+participant SO as Service owner
+
+T->>S: Transfer a periodically unlocked token amount
+
+S->>NO: Transfer part of unlocked token to nft owners of which nft is rented
+S->>MO: Transfer part of unlocked token to market owners
+S->>SO: Transfer part of unlocked token to service owners
+
+```
