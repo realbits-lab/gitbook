@@ -5,7 +5,13 @@
 ## REALBITS
 
 * [🎑 Overview](realbits/overview.md)
+* [🚎 Problem](realbits/problem.md)
+* [🐳 Solution](realbits/solution.md)
 * [🍜 Sites](realbits/sites.md)
+
+## Ecosystem
+
+* [⏺ Background](ecosystem/background.md)
 
 ## SERVICE
 
