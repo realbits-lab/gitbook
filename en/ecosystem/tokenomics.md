@@ -46,7 +46,11 @@ A portion of the platform's revenue is allocated to a token-based reward pool, e
 
 ## Incentive Mechanisms
 
+### Mechanisms Process
+
 Our token incentive program is tailored for contributors, including token holders, NFT owners, market owners, and service owners, distributing 0.6% of the total token supply every 5 weeks based on their respective balance rates. NFT owners contribute to the project by reducing token liquidity through holdings in the market balance wallet, earning market balance through NFT rentals. Market owners also support the project by holding tokens in the market balance wallet, receiving market balance through rent market fees. Similarly, service owners contribute by maintaining token liquidity in the market balance wallet, earning market balance from rent market fees. The contribution value is assessed based on the holding token amount at the market balance, while the reward process is managed through a vesting program facilitated by the rewardToken and rewardTokenShare contracts, ultimately benefiting the project's rentMarket contract and its market balance wallet.
+
+### Process Summary
 
 * Distribute 6 million (0.6% / 5 weeks) token to these 3 contributors as their each balance rate.
 * NFT owners
@@ -62,6 +66,8 @@ Our token incentive program is tailored for contributors, including token holder
     * They earn market balance by getting rent market fee.
   * CV (Contribution Value) : The holding token amount at market balance.
 
+### Process Diagram
+
 ```mermaid
 flowchart LR
   T[rewardToken contract] -->|vesting| S[rewardTokenShare contract]
@@ -74,7 +80,11 @@ flowchart LR
 
 ## Supply Policy
 
+### Supply Policy Description
+
 The total token supply is 1 billion, with a vesting scheme extending over 250 weeks, equivalent to roughly 5 years. The vesting process applies to the content team (20%), technology team (20%), and contributors (30%), each with 50 release intervals occurring every 5 weeks. For each release interval, a specific percentage of tokens is allocated: 0.4% for both the content and technology teams (4 million tokens each) and 0.6% for the community (6 million tokens). These tokens are gradually transferred to the respective team accounts or the rent market contract, ensuring a steady and controlled distribution of tokens over the 5-year period. The aim of this measured approach is to support the long-term commitment and engagement of the content and technology teams while fostering a strong and sustainable community ecosystem.
+
+### Policy Summary
 
 * Vesting (content team - 20%, technology team - 20%, contributors-30% in 250 weeks, about 5 years)
   * Frequency
@@ -88,6 +98,8 @@ The total token supply is 1 billion, with a vesting scheme extending over 250 we
   * Community : 30% in about 5 years → 50 frequency for 250 weeks
     * 6 million - 0.6% / 5 weeks rate (minimum frequency is 5 weeks)
       * Transfer vesting token to the rent market contract
+
+### Policy Diagram
 
 ```mermaid
 flowchart LR
