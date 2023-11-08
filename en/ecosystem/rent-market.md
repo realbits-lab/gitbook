@@ -1,5 +1,56 @@
 # 🇩🇰 Rent Market
 
+## Flow Diagram
+
+```mermaid
+flowchart TB
+    subgraph RM[Rent Market]
+        direction TB
+        RegData[registered NFT list]
+        RentData[rented NFT list]
+        Balance[user balance list]
+
+        RegisterProcess([register NFT process])
+        RentProcess([rent NFT process])
+        SettleProcess([settle fee process])
+        WithdrawProcess([withdraw balance process])  
+    end
+
+    subgraph AC[Account]
+        direction TB
+        SO[Service Owner]
+        MO[Market Owner]
+        NO[NFT Owner]
+    end
+
+    subgraph CR[Cron Job]
+        direction TB
+        CP[Cron Process]
+    end
+
+    U[User]
+
+    %% Register Process
+    NO --> |"`**1**`"| RegisterProcess --> |"`**2**`"| RegData
+
+    %% Rent Process
+    U --> |"`**3**`"| RentProcess
+    RegData --> |"`**4**`"| RentProcess --> |"`**5**`"| RentData
+
+    %% Settle Process
+    CP --> |"`**6**`"| SettleProcess
+    RentData --> |"`**7**`"| SettleProcess --> |"`**8**`"| Balance
+
+    %% Withdraw Process
+    NO <--> |"`**9, 11**`"| WithdrawProcess
+    Balance --> |"`**10**`"| WithdrawProcess
+    WithdrawProcess --> |"`**11**`"| SO
+    WithdrawProcess --> |"`**11**`"| MO
+
+```
+
+## Process
+
 1. **NFT Minting and Registration**
    * The NFT token owner (NO) mints an NFT and registers it within the NFT contract (N).
 2. **Renting Process**
@@ -30,3 +81,4 @@ M->>MO: Share rent fee (default 10%)
 M->>SO: Share rent fee (default 10%)
 
 ```
+
