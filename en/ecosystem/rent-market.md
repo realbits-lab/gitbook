@@ -2,6 +2,15 @@
 
 ## Flow Diagram
 
+### Fetch all registered NFT
+
+* All registered NFT is stored in rent market smart contract.
+* Developer can fetch them from rent market smart contract with web3 library such as wagmi.
+* You can test the example code.
+  * [https://codesandbox.io/s/fetch-all-registered-data-in-rent-market-zzx8l3?file=/src/App.js](https://codesandbox.io/s/fetch-all-registered-data-in-rent-market-zzx8l3?file=/src/App.js)
+
+
+
 ```mermaid
 flowchart TB
     subgraph RM[Rent Market]
@@ -51,12 +60,17 @@ flowchart TB
 
 ## Process
 
-1. **NFT Minting and Registration**
-   * The NFT token owner (NO) mints an NFT and registers it within the NFT contract (N).
-2. **Renting Process**
-   * The user (U) initiates the process by renting the NFT from the market contract (M), leading to the settlement of the NFT within the market contract.
-3. **Fee Distribution**
-   * Following the rental, the market contract (M) distributes the rent fee to the NFT token owner (NO), the market owner (MO), and the service owner (SO) as part of the fee-sharing process.
+### **NFT Minting and Registration**
+
+* The NFT token owner (NO) mints an NFT and registers it within the NFT contract (N).
+
+### **Renting Process**
+
+* The user (U) initiates the process by renting the NFT from the market contract (M), leading to the settlement of the NFT within the market contract.
+
+### **Fee Distribution**
+
+* Following the rental, the market contract (M) distributes the rent fee to the NFT token owner (NO), the market owner (MO), and the service owner (SO) as part of the fee-sharing process.
 
 ```mermaid
 sequenceDiagram
