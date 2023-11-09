@@ -2,40 +2,6 @@
 
 ## Flow Diagram
 
-### Fetch all registered NFT
-
-* All registered NFT metadata is stored in rent market smart contract.
-* Developer can write the code which can fetch them from rent market smart contract with web3 library such as wagmi.
-* You can test the example code.
-  * [https://codesandbox.io/s/fetch-all-registered-data-in-rent-market-zzx8l3?file=/src/App.js](https://codesandbox.io/s/fetch-all-registered-data-in-rent-market-zzx8l3?file=/src/App.js)
-
-### Fetch all rented NFT
-
-* All rented NFT metadata is stored in rent market smart contract.
-* Developer can write the code which can fetch them from rent market smart contract with web3 library such as wagmi.
-* You can test the example code.
-  * [https://codesandbox.io/s/fetch-all-rented-nft-in-rent-market-rf62jx](https://codesandbox.io/s/fetch-all-rented-nft-in-rent-market-rf62jx)
-
-### Change the registered NFT metadata
-
-* User can change the registered NFT metadata of which owner is the user.
-* Developer can write the code which can change the registered NFT metadata from rent market smart contract with web3 library such as wagmi.
-* You can test the example code.
-
-### Rent NFT by base coin
-
-* User can rent NFT using base coin.
-* Developer can write the code which can let user rent NFT using base coin with web3 library such as wagmi.
-* You can test the example code.
-  * [https://codesandbox.io/s/rent-nft-by-base-coin-s7wwnn?file=/src/App.js](https://codesandbox.io/s/rent-nft-by-base-coin-s7wwnn?file=/src/App.js)
-
-### Rent NFT by ERC20 token
-
-* User can rent NFT using ERC20 token.
-* Developer can write the code which can let user rent NFT using ERC20 token with web3 library such as wagmi.
-* You can test the example code.
-  * [https://codesandbox.io/s/rent-nft-by-erc20-token-tkm9rc?file=/src/App.js](https://codesandbox.io/s/rent-nft-by-erc20-token-tkm9rc?file=/src/App.js)
-
 ```mermaid
 flowchart TB
     subgraph RM[Rent Market]

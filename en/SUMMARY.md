@@ -35,3 +35,11 @@
 * [NFT](contracts/nft/README.md)
   * [safeMint](contracts/nft/safemint.md)
 * [WAGMI](contracts/wagmi.md)
+
+## Coding
+
+* [Fetch all registered NFT](coding/fetch-all-registered-nft.md)
+* [Fetch all rented NFT](coding/fetch-all-rented-nft.md)
+* [Change the registered NFT metadata](coding/change-the-registered-nft-metadata.md)
+* [Rent NFT by base coin](coding/rent-nft-by-base-coin.md)
+* [Rent NFT by ERC20 token](coding/rent-nft-by-erc20-token.md)
