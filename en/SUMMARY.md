@@ -43,3 +43,4 @@
 * [Change the registered NFT metadata](coding/change-the-registered-nft-metadata.md)
 * [Rent NFT by base coin](coding/rent-nft-by-base-coin.md)
 * [Rent NFT by ERC20 token](coding/rent-nft-by-erc20-token.md)
+* [Fetch the metadata of NFT](coding/fetch-the-metadata-of-nft.md)
