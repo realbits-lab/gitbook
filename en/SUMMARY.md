@@ -38,6 +38,7 @@
 
 ## Coding
 
+* [Mint NFT](coding/mint-nft.md)
 * [Fetch all registered NFT](coding/fetch-all-registered-nft.md)
 * [Fetch all rented NFT](coding/fetch-all-rented-nft.md)
 * [Change the registered NFT metadata](coding/change-the-registered-nft-metadata.md)
