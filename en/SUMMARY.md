@@ -38,6 +38,7 @@
 
 ## Coding
 
+* [Connect wallet](coding/connect-wallet.md)
 * [Mint NFT](coding/mint-nft.md)
 * [Fetch all registered NFT](coding/fetch-all-registered-nft.md)
 * [Fetch all rented NFT](coding/fetch-all-rented-nft.md)
