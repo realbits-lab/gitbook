@@ -42,6 +42,7 @@
 * [Mint NFT](coding/mint-nft.md)
 * [Fetch all registered NFT](coding/fetch-all-registered-nft.md)
 * [Fetch all rented NFT](coding/fetch-all-rented-nft.md)
+* [Fetch one rented NFT](coding/fetch-one-rented-nft.md)
 * [Change the registered NFT metadata](coding/change-the-registered-nft-metadata.md)
 * [Rent NFT by base coin](coding/rent-nft-by-base-coin.md)
 * [Rent NFT by ERC20 token](coding/rent-nft-by-erc20-token.md)
