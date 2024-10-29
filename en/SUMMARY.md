@@ -10,7 +10,7 @@
 
 ## Ecosystem
 
-* [⏺ Background](ecosystem/background.md)
+* [⏺️ Background](ecosystem/background.md)
 * [🤘 Design](ecosystem/design.md)
 * [🇹🇰 Tokenomics](ecosystem/tokenomics.md)
 * [🇩🇰 Rent Market](ecosystem/rent-market.md)
@@ -18,7 +18,7 @@
 ## SERVICE
 
 * [🏈 AvaMe](service/avame.md)
-* [🖼 Fictures](service/fictures.md)
+* [🖼️ Fictures](service/fictures.md)
 * [🎎 Dulls](service/dulls.md)
 * [💹 Market](service/market.md)
 
