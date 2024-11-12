@@ -18,10 +18,11 @@
 ## SERVICE
 
 * [🏈 AVAME](service/avame.md)
-* [🖼️ FICTURES](service/fictures.md)
 * [🎎 DULLS](service/dulls.md)
+* [🖼️ FICTURES](service/fictures.md)
 * [💹 MARKET](service/market.md)
 * [👻 PIXMON](service/pixmon.md)
+* [🧠 THOTHY](service/thothy.md)
 
 ## CONTRACTS
 
