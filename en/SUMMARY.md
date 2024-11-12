@@ -17,10 +17,11 @@
 
 ## SERVICE
 
-* [🏈 AvaMe](service/avame.md)
-* [🖼️ Fictures](service/fictures.md)
-* [🎎 Dulls](service/dulls.md)
-* [💹 Market](service/market.md)
+* [🏈 AVAME](service/avame.md)
+* [🖼️ FICTURES](service/fictures.md)
+* [🎎 DULLS](service/dulls.md)
+* [💹 MARKET](service/market.md)
+* [👻 PIXMON](service/pixmon.md)
 
 ## CONTRACTS
 
