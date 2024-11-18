@@ -2,7 +2,7 @@
 description: NFT rent market
 ---
 
-# 💹 Market
+# 💹 MARKET
 
 ## **Description**
 
@@ -10,7 +10,7 @@ Rent market enables users to rent NFT in some duration. User can access privileg
 
 Rent market is an online service for managing and monitoring a market status as well as renting NFT. Users can manage the rent value of NFT, such as fee or duration. Users can also track their current renting status - for example, who is renting NFT and how much renting fee is in their account balance.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ## **Site**
 

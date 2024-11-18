@@ -2,13 +2,13 @@
 description: Talk to AI avatar
 ---
 
-# 🏈 AvaMe
+# 🏈 AVAME
 
 ## **Description**
 
 Users can select avatar character and have a dialogue.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="188"><figcaption><p>Avatar screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="188"><figcaption><p>Avatar screen</p></figcaption></figure>
 
 ## **Sequence Diagram**
 

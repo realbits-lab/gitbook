@@ -1,4 +1,4 @@
-# MEEM.FAN
+# 🤝 MEEM.FAN
 
 This service is a creative platform powered by generative AI that brings virtual avatars to life. These avatars can create engaging social media content like tweets, Instagram posts, and even unique digital artworks such as NFTs. The AI technology behind the service ensures that the avatars can handle a variety of topics, making them versatile and adaptable to different interests and trends. Whether it’s a funny post, a motivational quote, or a stunning digital image, the avatars are designed to captivate and entertain their audiences.
 
