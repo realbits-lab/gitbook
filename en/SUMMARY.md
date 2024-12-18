@@ -4,7 +4,6 @@
 
 ## REALBITS
 
-* [🎑 Overview](realbits/overview.md)
 * [🚎 Problem & Solution](realbits/problem-and-solution.md)
 * [🍜 Sites](realbits/sites.md)
 
