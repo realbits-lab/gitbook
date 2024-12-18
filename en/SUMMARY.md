@@ -16,7 +16,7 @@
 
 * [🏈 AVAME](service/avame.md)
 * [🎎 DULLS](service/dulls.md)
-* [🖼️ FICTURES](service/fictures.md)
+* [🌅 FICTURES](service/fictures.md)
 * [💹 MARKET](service/market.md)
 * [🤝 MEEM.FAN](service/meem.fan.md)
 * [👻 PIXMON](service/pixmon.md)

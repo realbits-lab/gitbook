@@ -2,7 +2,7 @@
 description: Image NFT gallery service
 ---
 
-# 🖼 Fictures
+# 🌅 FICTURES
 
 ## Description
 
@@ -14,11 +14,7 @@ Whether minting is done or not, if user select to post image, image will be post
 
 When the user wants to see the prompt, user would have to pay a token and see the prompt for a limited time (perhaps one day). When prompt duration ends, prompt fee will be shared with NFT owner, service owner, and market owner by smart contract.
 
-<div data-full-width="false">
-
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="188"><figcaption><p>Image NFT</p></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/image (4).png" alt="" width="188"><figcaption><p>Image NFT</p></figcaption></figure></div>
 
 ## Service Sequence Diagram
 
