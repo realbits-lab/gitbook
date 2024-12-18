@@ -4,7 +4,7 @@
 
 ## REALBITS
 
-* [🚎 Problem & Solution](realbits/problem-and-solution.md)
+* [🚎 Solution](realbits/solution.md)
 * [🍜 Sites](realbits/sites.md)
 
 ## Ecosystem
