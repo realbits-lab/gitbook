@@ -9,7 +9,6 @@
 
 ## Ecosystem
 
-* [🤘 Design](ecosystem/design.md)
 * [🇹🇰 Tokenomics](ecosystem/tokenomics.md)
 * [🇩🇰 Rent Market](ecosystem/rent-market.md)
 
