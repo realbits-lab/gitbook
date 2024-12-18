@@ -9,7 +9,7 @@
 
 ## Ecosystem
 
-* [🇹🇰 Tokenomics](ecosystem/tokenomics.md)
+* [🇹🇰 Ecosystem](ecosystem/ecosystem.md)
 * [🇩🇰 Rent Market](ecosystem/rent-market.md)
 
 ## SERVICE
