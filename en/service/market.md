@@ -14,7 +14,7 @@ Rent market is an online service for managing and monitoring a market status as 
 
 ## **Site**
 
-* [https://test-market.realbits.co](https://test-market.realbits.co/)
+* https://test-market.realbits.co (coming soon)
 
 ## **GitHub**
 
