@@ -4,6 +4,10 @@ description: Image NFT gallery service
 
 # 🌅 FICTURES
 
+## Goal
+
+FICTURES is building a platform that uses generative AI to automatically create various types of content, including picture novels. Users will be able to access this content using tokens. By leveraging blockchain technology, FICTURES aims to guarantee the copyright of the generated content.
+
 ## Description
 
 User can draw image using prompt with generative AI technology. User can mint NFT with the image.
